@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* CSS Document */
+
+p{font-family: "Playfair Display";}
+
+body{
+	background-color:#CCC;
+	font-size:16px;
+  background: url(Images/back.jpg);background-size:100%;
+}
+#header img{
+  width:130px;
+}
+
+#wrapper{
+	width:1000px;
+	margin:0 auto;
+}
+#menu-utama{
+  margin-top:3px;
+  list-style:none;
+}
+#menu-utama li a{
+  color : #14211C;
+  border: 20px;
+  text-decoration:none;
+  border: 30px;
+}
+
+
+#menu-utama li{
+  float:left;
+  padding:4px 10px;
+  border-right:1px solid #555555;
+}
+
+#daftar-artikel{
+  width:536px;
+  float:left;
+  border-color:#F00;
+  color:#000;
+  box-shadow:#00F;
+  border-bottom;10 px;
+
+  
+}
+#bingkai{
+  border :3px;
+  width: 150px;
+  color: blue;
+  height: 150px;
+
+}
+
+.galeri img{
+  float: left;
+  margin-right: 71px;
+  width: 192px;
+  height: auto;
+}
+
+.artikel{
+  
+  padding:10px;
+  margin-bottom:63px;
+  
+  border-color:#930;
+  
+  border:50px;
+}
+
+.artikel img{
+  float:left;
+  margin-right:10px;
+  width:180px;
+  height:165px;
+}
+.gambar img{
+  float:left;
+  margin-right:10px;
+  width:150px;
+  height:180px;
+}
+
+.artikel b{
+  color:#616060;
+  background:#DDDDDD;
+  padding:3px;
+  font-size:12px;
+  font-weight:bold;
+  margin-right:10px;
+}
+.artikel p{
+  margin:10px 0;
+  text-align: justify;
+}
+.artikel a{
+  
+  text-align:right;
+  color:#616060;
+  background:#DDDDDD;
+  padding:3px;
+  font-size:12px;
+  font-weight:bold;
+ 
+}
+#Tabel {
+	background: #CCC;
+	width: auto;	
+	height:155px;
+	text-align:top;
+	font-size:12px;
+	font-weight:bold;
+	color:#000;
+	margin-left:5px;
+}
+#Tabel1 {
+	background: #CCC;
+	width: auto;	
+	height:755px;
+	text-align:top;
+	font-size:12px;
+	font-weight:bold;
+	color:#000;
+	margin-left:5px;
+	
+}
+#footer{
+  clear:both;
+  margin:20px 0;
+  text-align:center;
+  background-color: #f0f0f0;
+  padding:5px;
+  color:#555555;
+}
+
+#sidebar{
+  width:350px;
+  float:right;
+ 
+
+}
+#sidebar h2{
+  font-size:18px;
+  margin:10px 0;
+  border:3px double;
+  padding-left: 6px;
+}
+#sidebar li a{
+  padding: 0px 0px 1px 13px;
+  list-style: inside;
+  text-decoration: none;
+}
+#sidebar p{
+  line-height:20px;
+  color : #636363;
+}
+#sidebar ul{
+  margin-left:10px;
+}
+#sidebar ul li a{
+  color:#636363;
+  text-decoration:none; 
+  box-decoration-break: none;
+}
+
+
+
